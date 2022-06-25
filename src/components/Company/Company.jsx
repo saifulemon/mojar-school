@@ -6,7 +6,7 @@ import { faVimeo, faPinterest, faDribbble, faApple , faGoogle, faFirstdraft } fr
 const Company = () => {
     return <section>
         <Container>
-            <Row className='justify-content-center'>
+            <Row className='company'>
                 <Col lg="2" md="3" sm="4" xs="6">
                     <h3 className=" d-flex align-items-center gap-1">
                         <FontAwesomeIcon className="text-success" icon={faVimeo} /> Vimeo

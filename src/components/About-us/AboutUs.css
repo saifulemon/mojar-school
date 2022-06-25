@@ -1,0 +1,33 @@
+.counter {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #0a2b1e;
+  }
+  
+  .counter-title {
+    font-size: 1rem;
+    color: #0a2b1e;
+    font-weight: 500;
+  }
+  
+  .about-content {
+    padding-left: 50px;
+  }
+  
+  .about-img img {
+    border-radius: 15px;
+  }
+  
+  .about-content h2 {
+    font-weight: 600;
+  }
+
+
+
+  /* for mobile responsive */
+  @media screen and (max-width: 767px) {
+    .about-content {
+        padding-left: 0px !important;
+        margin-top: 40px;
+      }
+  }
