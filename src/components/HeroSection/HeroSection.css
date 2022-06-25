@@ -1,0 +1,22 @@
+.hero-content {
+    padding-top: 80px ;
+}
+
+.hero-content h2 {
+    font-weight: 600;
+    line-height: 55px;
+}
+
+
+
+
+/* for mobile responsive */
+@media screen and (max-width: 767px) {
+    .hero-content {
+        padding-top: 0px ;
+    }
+
+    .hero-img {
+        margin-top: 40px;
+    }
+  }
