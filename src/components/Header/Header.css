@@ -1,0 +1,12 @@
+.nav-right {
+    margin-left: 15px;
+} 
+
+
+
+/* for mobile menu */
+@media screen and (max-width: 991px) {
+    .navs-item, .nav-right{
+        text-align: center !important;
+    }
+  }
