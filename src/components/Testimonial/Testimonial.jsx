@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Slider from 'react-slick';
 import img from "../../images/testimonial01.png";
-
+import './Testimonial.css'
 
 const settings = {
     infinite: true,
@@ -26,7 +26,7 @@ const Testimonial = () => {
                     </Col>
 
                     <Col lg="6" md="6" sm="12" className="m-auto">
-                        <div className="testimonial-wrapper d-flex justify-content-center align-items-center ">
+                        <div className="testimonial-wrapper d-flex justify-content-center align-items-center">
                             <div className="testimonial-content w-100">
                                 <h2 className="mb-4">Our Students Voice</h2>
 

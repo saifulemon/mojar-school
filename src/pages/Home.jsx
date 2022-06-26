@@ -7,6 +7,7 @@ import Features from '../components/Features/Features';
 import FreeCourse from '../components/FreeCourse/FreeCourse';
 import Header from '../components/Header/Header';
 import HeroSection from '../components/HeroSection/HeroSection';
+import Newsletter from '../components/Newsletter/Newsletter';
 import Testimonial from '../components/Testimonial/Testimonial';
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
             <Features />
             <FreeCourse />
             <Testimonial />
+            <Newsletter />
         </Fragment>
     );
 };
