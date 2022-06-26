@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import AboutUs from '../components/About-us/AboutUs';
+import ChooseUs from '../components/Choose-us/ChooseUs';
 import Company from '../components/Company/Company';
 import Courses from '../components/Courses/Courses';
 import Header from '../components/Header/Header';
@@ -13,6 +14,7 @@ const Home = () => {
             <Company />
             <AboutUs />
             <Courses />
+            <ChooseUs />
         </Fragment>
     );
 };

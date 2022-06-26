@@ -7,13 +7,13 @@ import './AboutUs.css'
 const AboutUs = () => {
     return <section>
         <Container>
-            <Row>
+            <Row className='align-items-center'>
                 <Col lg='6' md='6'>
                     <div className="about-img">
                         <img src={aboutImg} alt="about-img" className='w-100 img-fluid' />
                     </div>
                 </Col>
-                <Col lg='6' md='6'>
+                <Col lg='6' md='6' className='text-center text-lg-start'>
                     <div className="about-content">
                         <h2>About Us</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, unde vel quam possimus esse quisquam consequuntur et odit qui dicta incidunt voluptatem, officiis labore laudantium reiciendis ratione iusto quidem consectetur! Suscipit, odio temporibus laudantium excepturi sunt atque totam nobis deserunt ipsam quos maiores, voluptates consequuntur qui, illo placeat est at!</p>
