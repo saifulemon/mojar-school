@@ -38,7 +38,7 @@ const coursesData = [
 const Courses = () => {
     return <section>
         <Container>
-            <Row className='align-items-center'>
+            <Row>
                 <Col lg="12" className="mb-5 text-center text-lg-start">
                     <div className="course-top d-flex justify-content-between align-items-center">
                         <div className="course-top-left w-50">
