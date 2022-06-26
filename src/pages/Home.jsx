@@ -7,6 +7,7 @@ import Features from '../components/Features/Features';
 import FreeCourse from '../components/FreeCourse/FreeCourse';
 import Header from '../components/Header/Header';
 import HeroSection from '../components/HeroSection/HeroSection';
+import Testimonial from '../components/Testimonial/Testimonial';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
             <ChooseUs />
             <Features />
             <FreeCourse />
+            <Testimonial />
         </Fragment>
     );
 };
