@@ -3,6 +3,7 @@ import AboutUs from '../components/About-us/AboutUs';
 import ChooseUs from '../components/Choose-us/ChooseUs';
 import Company from '../components/Company/Company';
 import Courses from '../components/Courses/Courses';
+import Features from '../components/Features/Features';
 import Header from '../components/Header/Header';
 import HeroSection from '../components/HeroSection/HeroSection';
 
@@ -15,6 +16,7 @@ const Home = () => {
             <AboutUs />
             <Courses />
             <ChooseUs />
+            <Features />
         </Fragment>
     );
 };
