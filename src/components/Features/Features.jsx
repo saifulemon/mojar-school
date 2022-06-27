@@ -29,7 +29,6 @@ const Features = () => {
             <Container>
                 <Row>
                     {FeatureData.map((item, index) => (
-                        
                         <Col lg="4" md="6" key={index}>
                             <div className="single-feature text-center px-4">
                                 <h2 className="mb-3">
@@ -37,7 +36,6 @@ const Features = () => {
                                 </h2>
                                 <h6>{item.title}</h6>
                                 <p>{item.desc}</p>
-                               
                             </div>
                         </Col>
                     ))}

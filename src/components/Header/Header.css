@@ -1,6 +1,10 @@
 .nav-right {
     margin-left: 15px;
-} 
+}
+
+.text-dark:hover {
+    color: #00CCA2 !important;
+}
 
 
 

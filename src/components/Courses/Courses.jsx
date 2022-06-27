@@ -63,6 +63,7 @@ const Courses = () => {
             </Row>
         </Container>
     </section>
+    
 };
 
 export default Courses;

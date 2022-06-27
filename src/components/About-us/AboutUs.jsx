@@ -5,7 +5,7 @@ import CountUp from 'react-countup';
 import './AboutUs.css'
 
 const AboutUs = () => {
-    return <section>
+    return <section id='about'>
         <Container>
             <Row className='align-items-center'>
                 <Col lg='6' md='6'>
